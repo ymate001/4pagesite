@@ -8,7 +8,7 @@ export class checkout extends React.Component {
 	render() {
 		return (
 			<div className="text-center mt-5">
-				<h1>Hello Rigo!</h1>
+				<h1>Checkout</h1>
 				<p>
 					<img src={rigoImage} />
 				</p>

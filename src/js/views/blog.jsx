@@ -63,7 +63,7 @@ export class blog extends React.Component {
 					</div>
 				</div>
 
-				<div>
+				<div className="m-5">
 					<ul className="list-unstyled">
 						<li className="media">
 							<img
@@ -71,8 +71,8 @@ export class blog extends React.Component {
 								src="https://via.placeholder.com/64"
 								alt="Generic placeholder image"
 							/>
-							<div className="media-body">
-								<h5 className="mt-0 mb-1">
+							<div className="media-body m-3">
+								<h5 className="mt-3 mb-1">
 									List-based media object
 								</h5>
 								Cras sit amet nibh libero, in gravida nulla.
