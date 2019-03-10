@@ -10,11 +10,11 @@ export class product extends React.Component {
 			width: "18em"
 		};
 		return (
-			<div className="text-center mt-5">
+			<div className="text-center m-5">
 				<h1>Products</h1>
 
-				<div className="row m-5 ">
-					<div className="card p-3">
+				<div className="row ">
+					<div className="card p-2">
 						<img
 							className="card-img-top"
 							src="https://via.placeholder.com/150x150"
@@ -28,22 +28,7 @@ export class product extends React.Component {
 							</a>
 						</div>
 					</div>
-					<div className="card p-3">
-						<img
-							className="card-img-top"
-							src="https://via.placeholder.com/150x150"
-							alt="Card image cap"
-						/>
-						<div className="card-body">
-							<h5 className="card-title">Card title</h5>
-							<p className="card-text" />
-							<a href="#" className="btn btn-primary">
-								Add to cart
-							</a>
-						</div>
-					</div>
-
-					<div className="card p-3">
+					<div className="card p-2">
 						<img
 							className="card-img-top"
 							src="https://via.placeholder.com/150x150"
@@ -58,7 +43,7 @@ export class product extends React.Component {
 						</div>
 					</div>
 
-					<div className="card p-3">
+					<div className="card p-2">
 						<img
 							className="card-img-top"
 							src="https://via.placeholder.com/150x150"
@@ -73,7 +58,7 @@ export class product extends React.Component {
 						</div>
 					</div>
 
-					<div className="card p-3">
+					<div className="card p-2">
 						<img
 							className="card-img-top"
 							src="https://via.placeholder.com/150x150"
@@ -88,7 +73,7 @@ export class product extends React.Component {
 						</div>
 					</div>
 
-					<div className="card p-3">
+					<div className="card p-2">
 						<img
 							className="card-img-top"
 							src="https://via.placeholder.com/150x150"
@@ -103,7 +88,7 @@ export class product extends React.Component {
 						</div>
 					</div>
 
-					<div className="card p-3">
+					<div className="card p-2">
 						<img
 							className="card-img-top"
 							src="https://via.placeholder.com/150x150"
@@ -118,7 +103,7 @@ export class product extends React.Component {
 						</div>
 					</div>
 
-					<div className="card p-3">
+					<div className="card p-2">
 						<img
 							className="card-img-top"
 							src="https://via.placeholder.com/150x150"
@@ -133,7 +118,7 @@ export class product extends React.Component {
 						</div>
 					</div>
 
-					<div className="card p-3">
+					<div className="card p-2">
 						<img
 							className="card-img-top"
 							src="https://via.placeholder.com/150x150"
@@ -148,7 +133,7 @@ export class product extends React.Component {
 						</div>
 					</div>
 
-					<div className="card p-3">
+					<div className="card p-2">
 						<img
 							className="card-img-top"
 							src="https://via.placeholder.com/150x150"
@@ -163,7 +148,7 @@ export class product extends React.Component {
 						</div>
 					</div>
 
-					<div className="card p-3">
+					<div className="card p-2">
 						<img
 							className="card-img-top"
 							src="https://via.placeholder.com/150x150"
@@ -178,7 +163,52 @@ export class product extends React.Component {
 						</div>
 					</div>
 
-					<div className="card p-3">
+					<div className="card p-2">
+						<img
+							className="card-img-top"
+							src="https://via.placeholder.com/150x150"
+							alt="Card image cap"
+						/>
+						<div className="card-body">
+							<h5 className="card-title">Card title</h5>
+							<p className="card-text" />
+							<a href="#" className="btn btn-primary">
+								Add to cart
+							</a>
+						</div>
+					</div>
+
+					<div className="card p-2">
+						<img
+							className="card-img-top"
+							src="https://via.placeholder.com/150x150"
+							alt="Card image cap"
+						/>
+						<div className="card-body">
+							<h5 className="card-title">Card title</h5>
+							<p className="card-text" />
+							<a href="#" className="btn btn-primary">
+								Add to cart
+							</a>
+						</div>
+					</div>
+
+					<div className="card p-2">
+						<img
+							className="card-img-top"
+							src="https://via.placeholder.com/150x150"
+							alt="Card image cap"
+						/>
+						<div className="card-body">
+							<h5 className="card-title">Card title</h5>
+							<p className="card-text" />
+							<a href="#" className="btn btn-primary">
+								Add to cart
+							</a>
+						</div>
+					</div>
+
+					<div className="card p-2">
 						<img
 							className="card-img-top"
 							src="https://via.placeholder.com/150x150"

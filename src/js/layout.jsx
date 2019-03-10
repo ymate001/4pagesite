@@ -1,6 +1,9 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./component/functional/scrollToTop.jsx";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faIgloo } from "@fortawesome/free-solid-svg-icons";
 
 import { home } from "./views/home.jsx";
 import { product } from "./views/product.jsx";
