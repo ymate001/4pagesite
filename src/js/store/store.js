@@ -1,6 +1,23 @@
 const getState = ({ getStore, setStore }) => {
 	return {
 		store: {
+			products: [
+				{
+					productname: "skii",
+					price: 14,
+					description: "Something to skii with",
+					image:
+						"https://upload.wikimedia.org/wikipedia/commons/8/84/Ski_Famille_-_Family_Ski_Holidays.jpg"
+				},
+
+				{
+					productname: "skii",
+					price: 17,
+					description: "Something to skii with",
+					image:
+						"https://upload.wikimedia.org/wikipedia/commons/8/84/Ski_Famille_-_Family_Ski_Holidays.jpg"
+				}
+			],
 			demo: [
 				{
 					title: "FIRST",

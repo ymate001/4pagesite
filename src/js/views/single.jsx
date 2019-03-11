@@ -8,7 +8,7 @@ export class Single extends React.Component {
 		return (
 			<div className="jumbotron">
 				<Context.Consumer>
-					{({ store }) => {
+					{({ store, actions }) => {
 						return (
 							<h1 className="display-4">
 								This will show the demo element:{" "}
