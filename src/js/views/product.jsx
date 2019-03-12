@@ -8,7 +8,7 @@ import "../../styles/home.css";
 export class product extends React.Component {
 	render() {
 		const styles = {
-			width: "18em"
+			width: "5em"
 		};
 		return (
 			<div className="text-center m-5">
