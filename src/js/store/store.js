@@ -37,14 +37,14 @@ const getState = ({ getStore, setStore }) => {
 
 			blog: [
 				{
-					image:
+					picture:
 						"https://upload.wikimedia.org/wikipedia/commons/8/84/Ski_Famille_-_Family_Ski_Holidays.jpg",
 					title: "First Post",
 					textpost:
 						"kjkjsiuebhbjbyeqowcnkjbcygyiwehcjbwjcbuyghjriubwc"
 				},
 				{
-					image:
+					picture:
 						"https://upload.wikimedia.org/wikipedia/commons/8/84/Ski_Famille_-_Family_Ski_Holidays.jpg",
 					title: "Second Post",
 					textpost:

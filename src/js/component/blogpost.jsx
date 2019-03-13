@@ -7,29 +7,21 @@ function blogpost(props) {
 		<ul>
 			<Context.Consumer>
 				{({ store }) => {
-					return store.products.map((item, index) => {
+					return store.blog.map((item, index) => {
 						return (
-							<div key={index} className="card p-2">
+							<div key={index} className="card">
 								<img
+									src={item.picture}
 									className="card-img-top"
-									src={item.image}
-									alt="Card image cap"
 								/>
 								<div className="card-body">
-									<h5 className="card-title">
-										{item.productname}
-									</h5>
+									<h5 className="card-title">{item.title}</h5>
+									<p className="card-text">{item.textpost}</p>
 									<p className="card-text">
-										{" "}
-										{item.description}
+										<small className="text-muted">
+											Last updated 3 mins ago
+										</small>
 									</p>
-									<p className="card-text">
-										{" "}
-										{"$" + item.price}{" "}
-									</p>
-									<a href="#" className="btn btn-primary">
-										Add to cart
-									</a>
 								</div>
 							</div>
 						);
