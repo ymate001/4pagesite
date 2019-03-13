@@ -14,8 +14,10 @@ export class product extends React.Component {
 			<div className="text-center m-5">
 				<h1>Products</h1>
 
-				<div className="row ">
-					<Productcard />
+				<div className="row">
+					<div className="d-flex flex-row">
+						<Productcard />
+					</div>
 				</div>
 			</div>
 		);

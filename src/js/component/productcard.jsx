@@ -4,12 +4,12 @@ import { Context } from "../store/appContext.jsx";
 
 function Productcard(props) {
 	return (
-		<ul>
+		<ul className="d-flex flex-row">
 			<Context.Consumer>
 				{({ store }) => {
 					return store.products.map((item, index) => {
 						return (
-							<div key={index} className="card p-2">
+							<div key={index} className="card p-2 col-3">
 								<img
 									className="card-img-top"
 									src={item.image}
