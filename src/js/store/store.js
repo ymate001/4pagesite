@@ -18,19 +18,25 @@ const getState = ({ getStore, setStore }) => {
 						"https://upload.wikimedia.org/wikipedia/commons/8/84/Ski_Famille_-_Family_Ski_Holidays.jpg"
 				}
 			],
-			demo: [
+
+			blog: [
 				{
-					title: "FIRST",
-					background: "white",
-					initial: "white"
+					image:
+						"https://upload.wikimedia.org/wikipedia/commons/8/84/Ski_Famille_-_Family_Ski_Holidays.jpg",
+					title: "First Post",
+					textpost:
+						"kjkjsiuebhbjbyeqowcnkjbcygyiwehcjbwjcbuyghjriubwc"
 				},
 				{
-					title: "SECOND",
-					background: "white",
-					initial: "white"
+					image:
+						"https://upload.wikimedia.org/wikipedia/commons/8/84/Ski_Famille_-_Family_Ski_Holidays.jpg",
+					title: "Second Post",
+					textpost:
+						"kjkjsiuebhbjbyeqowcnkjbcygyiwehcjbwjcbuyghjriubwckjkjsiuebhbjbyeqowcnkjbcygyiwehcjbwjcbuyghjriubwc"
 				}
 			]
 		},
+
 		actions: {
 			changeColor: (index, color) => {
 				//get the store
@@ -49,5 +55,4 @@ const getState = ({ getStore, setStore }) => {
 		}
 	};
 };
-
 export default getState;
