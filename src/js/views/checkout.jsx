@@ -12,6 +12,8 @@ export class checkout extends React.Component {
 				<div className="row">
 					<div className="col">
 						<form>
+							{" "}
+							{/*form*/}
 							<div className="form-row">
 								<div className="form-group col-md-6">
 									<label htmlFor="inputEmail4">Email</label>
@@ -98,7 +100,7 @@ export class checkout extends React.Component {
 							</button>
 						</form>
 					</div>
-
+					{/*cart view*/}
 					<div className="col-4">
 						<h4 className="d-flex justify-content-between align-items-center mb-3">
 							<span className="text-muted">Your cart</span>
@@ -148,7 +150,7 @@ export class checkout extends React.Component {
 						</ul>
 					</div>
 				</div>
-
+				{/*payment informaiton*/}
 				<div className="p-5">
 					<h3>Payment</h3>
 					<div className="row ">

@@ -4,7 +4,7 @@ import { Context } from "../store/appContext.jsx";
 
 function Productcard(props) {
 	return (
-		<ul className="d-flex flex-row">
+		<ul className="d-flex flex-wrap">
 			<Context.Consumer>
 				{({ store }) => {
 					return store.products.map((item, index) => {

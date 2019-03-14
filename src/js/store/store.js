@@ -32,6 +32,14 @@ const getState = ({ getStore, setStore }) => {
 					description: "2019 Honda CR-V",
 					image:
 						"https://st.motortrend.ca/uploads/sites/10/2016/10/2017-Honda-CR-V-front-three-quarter-studio.jpg"
+				},
+
+				{
+					productname: "GMC",
+					price: 30000,
+					description: "Yukon",
+					image:
+						"https://www.gmc.com/content/dam/gmc/na/us/english/index/vehicles/2018/crossovers-suvs/yukon-mov/yukon-denali/gallery/videos/01-images/2018-yukon-denali-video-gal-performance-product-video.jpg?imwidth=650"
 				}
 			],
 
